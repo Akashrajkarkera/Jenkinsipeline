@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "Building the project"
-                git branch:'master', url:'https://github.com/Akashrajkarkera/Pipeline-.git'
+                git branch:'master', url:'https://github.com/Akashrajkarkera/Jenkinspipeline.git'
                 sh 'ls'
             }
         } 
