@@ -5,7 +5,6 @@ pipeline {
         stage('Fetch Jenkinsfile') {
             steps {
                 git branch: 'main', url: 'https://github.com/Akashrajkarkera/Jenkinspipeline.git'
-                sh "cp Jenkinsfile Jenkinspipeline_dir/"
             }
         }
 
